@@ -5,7 +5,6 @@ Inicio
         Si numero es un numero entonces
                 resultado = numero / 2
                 Si resultado es entero entonces
-                # Recordar para python variable.is.intiger():
                         Escribe "Su número es par"
                 Sino
                         Escribe "Su número no es par"
@@ -13,4 +12,5 @@ Inicio
                 Escribe "Por favor escriba un número"
         Espera 5 segundos
         Instrucción1
+	#Para que se vuelva a ejecutar y que el usuario pueda volver a intentar introducir un número
 Fin

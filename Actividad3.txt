@@ -14,7 +14,7 @@ Inicio
                                 resultado = numeroprimo/contador
                                 #Dividir numeroprimo entre contador y almacenarlo en la variable resultado
                                         Si resultado es entero entonces
-                                        #Si resultado es un numero entero...
+                                        #Si resultado es un numero entero entonces suma 1 al contador de enteros
                                                 enteros += 1
                                         sino
                                                 decimales += 1
