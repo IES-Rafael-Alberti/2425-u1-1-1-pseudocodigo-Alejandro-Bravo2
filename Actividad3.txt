@@ -1,0 +1,32 @@
+#Actividad 3
+Inicio
+        contador = 1
+        enteros = 0
+        decimales = 0
+        Escribe "Escriba el número que quiera comprobar si es primo o no: "
+        Lee numeroprimo
+        Si numeroprimo es un numero entonces
+                Si ( numeroprimo < 1)
+                #Si el número es menor a 0 no es primo
+                        Escribe "Por favor escriba un número mayor a 1"
+                Sino
+                        Mientras (contador <= numeroprimo) hacer
+                                resultado = numeroprimo/contador
+                                #Dividir numeroprimo entre contador y almacenarlo en la variable resultado
+                                        Si resultado es entero entonces
+                                        #Si resultado es un numero entero...
+                                                enteros += 1
+                                        sino
+                                                decimales += 1
+                                Si (enteros > 2)
+                                #Si enteros es mayor a 2 significa que tiene mas de 2 divisores por lo que ya no sería un numero primo
+                                        Escribe "Este número no es primo"
+                                Sino
+                                        Escribe "Este número es primo"
+                        contador += 1
+        Sino
+                Escribe "Por favor escriba un número"
+                Espera 5 segundos
+                Instrucción1
+Fin
+

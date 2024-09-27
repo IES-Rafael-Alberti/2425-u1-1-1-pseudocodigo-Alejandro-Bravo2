@@ -1,0 +1,17 @@
+#Actividad 2
+Inicio
+        contador = 1
+        Escribe "Te voy a mostrar la tabla de multiplicar en el rango del 1 al 10 del número que usted quiera: "
+        Lee multiplicador
+        Si multiplicador es un numero entonces
+                Mientras (contador <= 10) hacer
+                #Mientras contador no sea igual a 10
+                        resultado = multiplicador * contador
+                        Escribe ("El número" multiplicador " X " contador "= "resultado)
+                        contador += 1
+                        #Aumentar a contador en valor de 1
+        Sino
+                Escribe "Por favor escriba un número"
+                Espera 5 segundos
+                Instrucción1
+Fin
