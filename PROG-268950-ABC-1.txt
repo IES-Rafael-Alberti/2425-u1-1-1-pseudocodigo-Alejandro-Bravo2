@@ -1,0 +1,16 @@
+#Actividad 1
+Inicio
+        Escribe "Introduce un número: "
+        Lee numero
+        Si numero es un numero entonces
+                resultado = numero / 2
+                Si resultado es entero entonces
+                        Escribe "Su número es par"
+                Sino
+                        Escribe "Su número no es par"
+        Sino
+                Escribe "Por favor escriba un número"
+        Espera 5 segundos
+        Instrucción1
+	#Para que se vuelva a ejecutar y que el usuario pueda volver a intentar introducir un número
+Fin
